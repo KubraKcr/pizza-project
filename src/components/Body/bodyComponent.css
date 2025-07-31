@@ -1,0 +1,245 @@
+.body-all {
+  background-color: #faf7f2;
+  padding: 40px 0;
+}
+
+.body-inner {
+ display: flex;
+  width: 74%;
+  margin: 100px auto;
+  gap: 20px;
+  padding: 0 24px;
+}
+.body-inner-ls {
+  width: 50%;
+  background-image: url("/images/iteration-2-images/cta/kart-1.png");
+  background-size: cover;
+  background-position: top;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  color: white;
+   background-repeat: no-repeat;
+
+}
+
+.body-inner-ls h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-family: 'Quattrocento', sans-serif;
+  line-height: 1.1;
+  padding-top: 50px;
+}
+
+.body-inner-ls p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-family: 'Barlow', sans-serif;
+}
+
+#btn-absolute {
+  padding: 15px 30px;
+  background-color: white;
+  color: #CE2829;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.body-inner-rs {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 6px;
+}
+
+.body-inner-rs-top {
+  border-radius: 10px;
+  background-image: url("/images/iteration-2-images/cta/kart-2.png");
+  height: 50%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding: 50px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.body-inner-rs-bottom {
+  border-radius: 10px;
+  background-image: url("/images/iteration-2-images/cta/kart-3.png");
+  height: 50%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Barlow', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 32px;
+  padding: 53px;
+  color: black;
+   background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.red {
+  color: #CE2829;
+}
+
+.mid-body {
+  text-align: center;
+  margin: 80px 0 20px 0;
+  font-family: 'Barlow', sans-serif;
+}
+
+.packaging-menus {
+  color: #CE2829;
+  font-family: 'Satisfy', cursive;
+  font-size: 26px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.menu-subtitle {
+  color: #292929;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+}
+
+.down-cards {
+      display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 43px auto;
+    width: 86%;
+ 
+}
+
+.pic img {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.rating1 {
+  display: flex;
+  justify-content: space-between;
+ 
+  max-width: 500px;
+  margin: 10px auto;
+  gap: 300px;
+  padding: 0px; 
+}
+
+.rating1 .price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000; 
+
+
+}
+
+.rating1 .rating-info {
+ display: flex;
+gap: 20px;
+ align-items: center;
+}
+
+.rating1 .rate {
+  font-size: 15px;
+  color: #888;
+
+}
+.body-inner-ls,
+.body-inner-rs-top,
+.body-inner-rs-bottom {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+
+@media (max-width: 768px) {
+  .body-inner {
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+    padding: 0;
+    gap: 16px;
+  }
+
+  .body-inner-ls,
+  .body-inner-rs {
+    width: 100%;
+  }
+
+.body-inner-ls,
+.body-inner-rs-top,
+.body-inner-rs-bottom {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 135px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+  .body-inner-ls h1 {
+    font-size: 28px;
+    padding-top: 16px;
+  }
+
+  .body-inner-ls p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+#btn-absolute {
+  width: 100%;
+  max-width: 140px;
+  padding: 12px 16px;
+  margin: 16px auto 0 auto;
+  display: block;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+
+  box-sizing: border-box;
+}
+  .down-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .pic img {
+    width: 100%;
+    max-width: 320px;
+    padding: 12px;
+  }
+
+  .rating1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
+}
