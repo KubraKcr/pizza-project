@@ -40,7 +40,7 @@ function Footer() {
 
         <div className="footer-instagram">
           <h4>Instagram</h4>
-          {/* Buraya 6 tane küçük görsel */}
+          {}
           <div className="insta-gallery">
             <img src="images\iteration-2-images\footer\insta\li-0.png" alt="food" />
             <img src="images\iteration-2-images\footer\insta\li-1.png" alt="food" />

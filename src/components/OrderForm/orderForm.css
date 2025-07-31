@@ -339,7 +339,7 @@ justify-content: flex-start ;
   width: 120px;               
   display: flex;
   align-items: center;
-  justify-content: space-between; /* butonları sola hizala */
+  justify-content: space-between;
   gap: 8px;
   background-color: #FAF7F2;
 
